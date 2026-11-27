@@ -1,8 +1,6 @@
-# Artificial Endocrine System for CPU Scheduling
-
 A CPU simulation comparing reactive DVFS with a predictive frequency controller. Both controllers use a FIFO queue and receive the same tasks.
 
-## Run
+Run
 
 Use Python 3.14 with Tkinter for the interactive graph. Run these commands in the repository folder.
 
@@ -17,7 +15,7 @@ To reproduce the paper's 11-seed check:
 
 This writes results/seed_sensitivity.csv.
 
-## Experiment
+Experiment
 
 The simulated core runs for 120 seconds in 10 ms steps. The main run uses seed 42 and three workloads with Poisson arrivals. The rates are 25 tasks/s for steady load, 9 tasks/s between bursts and 65 during bursts, and 49 tasks/s for sustained overload.
 
